@@ -1,0 +1,93 @@
+body {
+  font-family: Copperplate, Fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: teal;
+}
+
+nav {
+  background: linear-gradient(180deg, black, lightblue);
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+  padding: 2px;
+  border-color: white;
+  border-style: ridge;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px navy;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+main {
+  display: block;
+  justify-content: center;
+  align-items: top;
+  height: calc(90vh - 20px); /* Subtract the height of the navigation bar */
+}
+
+h1, h2, h3, p {
+  margin: 0; /* Removes default margins for headings */
+  background-color: white;
+  background: rgba(255,255,255,0.3);
+}
+
+.above-text {
+	display: block;
+	text-align: center;
+	border-style: dashed;
+	margin: 30px auto;
+	width: 60%;
+	max-width: 600px;
+	height: auto;
+}
+
+.current-date-time {
+	display: block;
+	text-align: center;
+	border-style: dashed;
+	margin: 30px auto;
+	width: 60%;
+	max-width: 600px;
+	height: auto;
+}
+
+.below-stuff {
+  display: block; /* Ensures that both divs are block-level elements */
+  text-align: center; /* Centers the content within each div */
+  border-style: dashed;
+  margin: 30px auto; /* Adds some margin and centers the divs horizontally */
+  width: 60%; /* Ensures the divs take up the full width of their containing element */
+  max-width: 600px; /* Adds a maximum width to avoid stretching on wide screens */
+  height: auto;
+}
+
+.about-content {
+  text-align: center;
+    text-align: center;
+  border-style: dashed;
+}
+
+footer {
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
