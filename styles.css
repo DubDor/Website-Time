@@ -68,7 +68,7 @@ h1, h2, h3, p {
 }
 
 .below-stuff {
-  display: block; /* Ensures that both divs are block-level elements */
+  display: block; /* Ensures that divs are block-level elements */
   text-align: center; /* Centers the content within each div */
   border-style: dashed;
   margin: 30px auto; /* Adds some margin and centers the divs horizontally */
