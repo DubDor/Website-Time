@@ -38,11 +38,11 @@ main {
   display: block;
   justify-content: center;
   align-items: top;
-  height: calc(90vh - 20px); /* Subtract the height of the navigation bar */
+  height: calc(90vh - 20px);
 }
 
 h1, h2, h3, p {
-  margin: 0; /* Removes default margins for headings */
+  margin: 0;
   background-color: white;
   background: rgba(255,255,255,0.3);
 }
@@ -68,12 +68,12 @@ h1, h2, h3, p {
 }
 
 .below-stuff {
-  display: block; /* Ensures that both divs are block-level elements */
-  text-align: center; /* Centers the content within each div */
+  display: block;
+  text-align: center;
   border-style: dashed;
-  margin: 30px auto; /* Adds some margin and centers the divs horizontally */
-  width: 60%; /* Ensures the divs take up the full width of their containing element */
-  max-width: 600px; /* Adds a maximum width to avoid stretching on wide screens */
+  margin: 30px auto;
+  width: 60%;
+  max-width: 600px;
   height: auto;
 }
 

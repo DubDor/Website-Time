@@ -1,5 +1,5 @@
 <?php
-// Step 1: Database Setup (usually done once)
+// Step 1: Database Setup (Usually done once)
 $servername = "your_database_server";
 $username = "your_username";
 $password = "your_password";
